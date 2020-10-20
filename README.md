@@ -34,6 +34,7 @@ TASK 3
 ======
 
 Start-up: 
+
 0. plug in your Arduino Uno to computer
 1. run Arduino IDE, in bottom-right corner check if port is a 'COM4', compile code and write it to arduino
 2. if port isn't 'COM4' type `notepad main.py` or `vim main.py` and change line 5 to your port
