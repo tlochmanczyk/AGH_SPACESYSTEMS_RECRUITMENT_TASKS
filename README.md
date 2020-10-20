@@ -14,17 +14,19 @@ Start-up:
 5. type `exit()`
 6. type `python main.py` (or `python3.6 main.py` for example)
 
-Now when server is running, you can use API with some tool for making http requests (e.g curl, it's built in windows and probably in linux)
+Now when server is running, you can use API with some tool for making http requests (e.g curl, it's built in windows and probably in linux). 
 
 For example:
 
-`curl -H "Content-Type: application/json" -d @data.json -X POST http://127.0.0.1:5000/addOne`
+`curl -H "Content-Type: application/json" -d @sample.json -X POST http://127.0.0.1:5000/addOne`*
 
 `curl -H "Content-Type: application/json" -X GET http://127.0.0.1:5000/getAll`
 
 `curl -H "Content-Type: application/json" -X GET http://127.0.0.1:5000/getOne?id=1`
 
-`curl -H "Content-Type: application/json" -X GET http://127.0.0.1:5000/delete?id=1`
+`curl -H "Content-Type: application/json" -X DELETE http://127.0.0.1:5000/delete?id=1`
+
+*`sample.json` is sample file for testing purposes, taken from your google drive, but shortended
 
 ___
 
