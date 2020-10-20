@@ -14,7 +14,7 @@ Start-up:
 5. type `exit()`
 6. type `python main.py` (or `python3.6 main.py` for example)
 
-Now server is running, you can use API with some tool for making http requests (e.g curl, it's built in windows and probably in linux)
+Now when server is running, you can use API with some tool for making http requests (e.g curl, it's built in windows and probably in linux)
 
 For example:
 
@@ -37,7 +37,7 @@ Start-up:
 2. if port isn't 'COM4' type `notepad main.py` or `vim main.py` and change line 5 to your port
 3. type `pip install requirments.txt`
 
-Now you are ready to run program. You can use it in two different modes. In first you just type `python main.py conn` and then you type commands as they are in manual below. In second mode you type first `python main.py` and then command. In both modes there are some delays due to arduino bootloader, which are impossible to delete or reduce.
+Now, you are ready to run program. You can use it in two different modes. In first, you just typing `python main.py conn` and then you typing commands as they are in manual below. In second mode, you type first `python main.py` and then command. In both modes, there are some delays due to arduino bootloader, which are impossible to delete or reduce.
 
 ## COMMANDS:
 
@@ -62,7 +62,7 @@ Now you are ready to run program. You can use it in two different modes. In firs
 
 ___
 
-Please, if I would not get to the third stage of recruitment, then send me some feedback about what could be done better. Thank you :)
+If I didn't get to the third stage of recruitment, please send me some feedback what could I have done better. Thank you :)
 
 
 
